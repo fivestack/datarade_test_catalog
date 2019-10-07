@@ -1,11 +1,12 @@
 name: my_dataset
 description: A test dataset for datarade
 
-endpoint:
+database:
     driver: mssql
     host: my_host
     port: 12345
-    database: my_database
+    name: my_database
+    schema: dbo
 
 fields:
     - name: my_string_field
