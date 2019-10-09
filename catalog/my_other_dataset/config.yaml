@@ -5,8 +5,8 @@ database:
     driver: mssql
     host: my_host
     port: 12345
-    name: my_database
-    schema: dbo
+    database_name: my_database
+    schema_name: dbo
 
 fields:
     - name: my_other_string_field
