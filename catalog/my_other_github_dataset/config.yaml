@@ -5,7 +5,7 @@ database:
     driver: mssql
     host: my_host
     port: 12345
-    database_name: my_other_github_database
+    database_name: my_other_github_integration_database
     schema_name: dbo
 
 fields:
