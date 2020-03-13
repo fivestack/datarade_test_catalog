@@ -1,2 +1,2 @@
-# dataset_catalog_test
-Test repo for datarade backend
+# datarade_test_catalog
+Test repo for datarade catalog integration tests
