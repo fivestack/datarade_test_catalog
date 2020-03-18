@@ -1,0 +1,16 @@
+name: list_of_tables
+description: A list of tables with column counts in the test database for datarade
+
+database:
+  driver: mssql
+  host: localhost\DATARADE
+  database_name: datarade
+  schema_name: e2e
+
+fields:
+  - name: schema_name
+    type: String
+  - name: table_name
+    type: String
+  - name: column_count
+    type: Integer
